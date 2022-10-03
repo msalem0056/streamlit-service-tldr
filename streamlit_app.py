@@ -6,7 +6,6 @@ Idea for app: https://medium.com/analytics-vidhya/text-summarization-in-python-u
 # -- Standard Imports
 from importlib import import_module
 import os
-import subprocess
 import time
 
 # -- Third-party Imports
@@ -24,13 +23,6 @@ import streamlit as st
 
 __author__ = "msalem0056"
 __created__ = "October 2022"
-
-
-@st.cache()
-def download_and_init_nlp(model_name: str):
-    """Downloads the pretrained language model"""
-    subprocess.run(['python', '-m', 'spacy', 'download', f'{model_name}'])
-    return spacy.load(model_name)
 
 
 @st.cache()
@@ -176,7 +168,7 @@ def tl_dr(title, media, date, datetime, desc, link, img):
 # -- Main
 if __name__ == "__main__":
 
-    nlp = download_and_init_nlp("en_core_web_md")
+    nlp = spacy.load("en_core_web_sm")
     st.sidebar.write("# Controls and Stats")
     search_text = st.sidebar.text_area('Items to search here:')
 
@@ -195,7 +187,6 @@ if __name__ == "__main__":
                     df.itertuples(
                         index=False, name=None)))
         stats_news = []
-        print(results)
         for result in results:
             if result['title'] is None:
                 continue
