@@ -1,2 +1,8 @@
 streamlit
 feedparser
+networkx
+numpy
+pandas
+scipy
+mpire
+spacy
