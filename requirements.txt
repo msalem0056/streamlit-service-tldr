@@ -7,4 +7,4 @@ numpy
 pandas
 spacy
 streamlit
-feedparser==5.0
+feedparser==5.1
