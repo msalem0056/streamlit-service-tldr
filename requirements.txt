@@ -1,10 +1,10 @@
 setuptools
 newspaper3k
-pygooglenews==0.1.1
+pygooglenews
 mpire
 networkx
 numpy
 pandas
 spacy
 streamlit
-feedparser==5.1
+feedparser>=6.0
