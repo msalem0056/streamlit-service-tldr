@@ -1,0 +1,8 @@
+mpire
+networkx
+newspaper3k
+numpy
+pandas
+pygooglenews
+spacy
+streamlit
