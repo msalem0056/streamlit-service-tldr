@@ -6,4 +6,4 @@ pandas
 scipy
 mpire
 spacy
-pygooglenews
+pygooglenews==0.1.0
