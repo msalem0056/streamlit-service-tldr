@@ -6,3 +6,4 @@ pandas
 pygooglenews
 spacy
 streamlit
+setuptools==57.5.0
