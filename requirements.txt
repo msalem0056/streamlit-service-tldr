@@ -1,4 +1,4 @@
-setuptools==57.0.0
+setuptools==51.0.0
 newspaper3k
 pygooglenews
 mpire
