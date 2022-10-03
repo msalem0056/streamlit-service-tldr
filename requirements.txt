@@ -1,6 +1,6 @@
 setuptools
 newspaper3k
-pygooglenews
+pygooglenews==0.1.1
 mpire
 networkx
 numpy
