@@ -1,9 +1,9 @@
 setuptools==57.5.0
+newspaper3k
+pygooglenews
 mpire
 networkx
-newspaper3k
 numpy
 pandas
-pygooglenews
 spacy
 streamlit
