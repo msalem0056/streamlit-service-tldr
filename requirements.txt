@@ -6,4 +6,5 @@ pandas
 scipy
 mpire
 spacy
+GoogleNews
 newspaper3k
