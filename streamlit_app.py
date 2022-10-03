@@ -13,7 +13,7 @@ import networkx as nx
 import newspaper
 import numpy as np
 import pandas as pd
-from pygooglenews import GoogleNews
+from GoogleNews import GoogleNews
 import spacy
 from spacy.lang.en import English
 import streamlit as st
