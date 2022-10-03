@@ -6,3 +6,4 @@ pandas
 scipy
 mpire
 spacy
+pygooglenews
